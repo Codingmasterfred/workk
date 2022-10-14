@@ -1,0 +1,87 @@
+
+*
+{margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+
+body {background-image:url(https://th.bing.com/th/id/OIP.Eox9izQhSYtgRST7pGaolQHaEK?w=304&h=180&c=7&r=0&o=5&pid=1.7);
+background-size:cover;
+background-position:center;}
+
+/*navbar----------------------------------------------------------------------------------------------s---------------------*/
+
+
+.navbar {
+text-align:center;
+overflow:hidden;
+margin:10px;
+}
+
+
+.navbar ul {
+display:inline-flex;
+list-style:none;
+color:red;
+}
+
+.navbar ul li {
+width:120px;
+margin:15px;
+padding:15px;
+}
+
+.active, .navbar ul l:hover
+{background-color:white;
+border-radius:10px;
+}
+
+
+
+
+/*sub-navbar-1-------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.sub-navbar-1 {
+display:none;
+}
+
+
+.navbar ul li:hover .sub-navbar-1
+{display:block;
+margin-top:15px;
+margin-left:-31px;
+background-color:black;
+position:absolute;
+}
+
+.navbar ul li:hover .sub-navbar-1 ul
+{display:block;
+margin:10px;}
+
+
+
+
+
+
+/* sub-navbar-1-1----------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.sub-navbar-1-1{
+display:none;}
+
+.navbar ul li:hover .sub-navbar-1 ul li:hover .sub-navbar-1-1{
+display:block;
+margin-left:70px;
+margin-top:-60px;
+}
+
+
+
+i {margin-right:200px; color:darkblue;}
